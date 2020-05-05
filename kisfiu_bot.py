@@ -322,7 +322,7 @@ def doki(bot, update):
 	#Mai dátum:
 	myDate = datetime.datetime.now()
 	#Hanyadik hét van:
-	weekNum = int(myDate.strftime("%W"))
+	weekNum = int(myDate.strftime("%W")) + 1
 
 	#Mikor rendel a adatpolitikai
 	if weekNum%2 == 0:
